@@ -1,0 +1,166 @@
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #272727;
+    color: #ffffff !important;
+}
+a{
+    transition: all 4s ease;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+h5{
+    color: #272727;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+li{
+    margin-bottom: 15px;
+}
+ol{
+    margin-bottom: 0;
+}
+::selection {
+    color: #272727;
+    background-color: #fff;
+}
+
+
+/* Navbar CSS */
+
+.navbar{
+    box-shadow: 0px 10px 10px 0px rgba(6, 3, 17, 0.171) !important;
+    backdrop-filter: blur(25px) !important;
+}
+.nav-link , .nav-brand{
+    color: #272727;
+    padding: 10px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.nav-item{
+    margin: 0 !important;
+}
+.nav-brand:hover{
+    color: #272727;
+}
+
+
+/* Home Page Content CSS */
+
+.content {
+    height: 80vh;
+    background-color: #355070;
+    color: #ffffff !important;
+    padding: 3rem;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 25rem;
+    border-bottom-right-radius: 45rem;
+}
+.get-started{
+    background-color: #272727;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+.get-started:hover {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #323232;
+    transition: all 0.5 ease;
+}
+.hero-img img{
+    margin-top: 10%;
+    width: 100%;
+}
+.hero-img {
+    height: 70vh;
+    width: 100%;
+    user-select: none;
+}
+
+
+/* Footer CSS */
+
+footer{
+    background-color: #3c3c3c;
+    text-align: center;
+}
+.social-icons li {
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+    
+}
+.social-icons li .white1{
+    color: #0077b5 !important;
+}
+.social-icons li .white1:hover {
+    color: #fff !important;
+}
+
+
+/* Customer Send Money / Transactions CSS */
+
+.my-info {
+    padding: 2rem 5rem;
+}
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: #355070 !important;
+    color: #fff !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.btn-info:hover {
+    background-color: #323232 !important;
+}
+
+
+/* Customer Table CSS */
+
+.table-content{
+    padding: 0 8%;
+}
+table{
+    color: #272727 !important;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    background-color: #fff;
+}
+
+.table-hover .table-info:hover,
+.table-hover .table-info:hover>td,
+.table-hover .table-info:hover>th {
+    background-color: #efefef;
+}
+
+table .thead th{
+    color: white !important
+}
+
+#alert{
+    display: none;
+    margin: 20px 13% 0 13%;
+    border-radius: 10px;
+    color: #272727;
+}
